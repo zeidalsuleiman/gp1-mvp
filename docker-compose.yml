@@ -6,6 +6,7 @@ services:
       - "8000:8000"
     environment:
       - JWT_SECRET=local-dev-jwt-secret
+      - OPENWEATHER_API_KEY=fb988a7e6ed75953c7656513020fe1b1
 
   frontend:
     build: ./frontend
@@ -13,3 +14,5 @@ services:
       - "3000:3000"
     depends_on:
       - backend
+
+  
