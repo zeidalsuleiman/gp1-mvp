@@ -2,7 +2,7 @@ name: Hasad MVP CI/CD (Functional + Non-functional)
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
   workflow_dispatch:
     inputs:
       mode:
