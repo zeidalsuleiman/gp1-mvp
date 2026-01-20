@@ -10,7 +10,6 @@ on:
       - "**"
   workflow_dispatch:
 
-
 jobs:
   bandit_scan:
     name: Bandit Security Scan (NFR)
